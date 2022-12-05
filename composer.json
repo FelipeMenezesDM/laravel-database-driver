@@ -1,0 +1,23 @@
+{
+    "name": "felipemenezesdm/laravel-database-driver",
+    "description": "Biblioteca para gerenciamento de drivers de base de dados compatíveis com projetos Laravel",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "FelipeMenezesDM\\LaravelDatabaseDriver\\": "src/"
+        },
+        "files": [
+            "src/Helpers/helpers.php"
+        ]
+    },
+    "authors": [
+        {
+            "name": "Felipe Menezes",
+            "email": "contato@felipemenezes.com.br"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "php": "^8.1"
+    }
+}
